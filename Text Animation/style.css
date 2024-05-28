@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+}
+
+h1 {
+  font-size: 6rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+h1 span {
+  display: inline-block;
+}
